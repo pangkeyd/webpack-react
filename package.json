@@ -1,0 +1,8 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pangkeyd/webpack-react",
+  "author": "dpangkey",
+  "license": "MIT"
+}
