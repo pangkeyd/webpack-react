@@ -4,5 +4,10 @@
   "main": "index.js",
   "repository": "https://github.com/pangkeyd/webpack-react",
   "author": "dpangkey",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "path": "^0.12.7",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
 }
