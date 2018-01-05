@@ -6,7 +6,7 @@
   "author": "dpangkey",
   "license": "MIT",
   "scripts": {
-    "starts": "webpack-dev-server"
+    "start": "webpack-dev-server"
   },
   "dependencies": {
     "html-webpack-plugin": "^2.30.1",
