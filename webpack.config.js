@@ -1,4 +1,6 @@
 const path = require('path')
+const webpack = require('webpack')
+
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: './client/index.html',
@@ -38,6 +40,11 @@ module.exports = {
     ]
   },
   plugins: [
-    HtmlWebpackPluginConfig
+    HtmlWebpackPluginConfig,
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jquery: 'jquery',
+      jQuery: 'jquery'
+    })
   ]
 }
